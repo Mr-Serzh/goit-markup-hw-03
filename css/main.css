@@ -1,0 +1,73 @@
+/* HERO */
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: blueviolet;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* end HERO */
+
+/* FEATURES */
+.features-item {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-img {
+  background-color: var(--secondary-bg-color);
+}
+
+.features-img:hover {
+  background-color: var(--accent-color);
+}
+
+.features-text {
+  line-height: 1.7;
+}
+/* end FEATURES */
+
+/* WORK */
+.services {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* end WORK */
+
+/* OUR TEAM */
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-member {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+/* end OUR TEAM  */
+
+/* CLIENTS */
+.clients .link:hover,
+.clients .link:focus {
+  background-color: var(--accent-color);
+}
+/* end CLIENTS */

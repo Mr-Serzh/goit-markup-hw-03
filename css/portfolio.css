@@ -1,0 +1,39 @@
+/* FILTER */
+.portfolio .botton {
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 6px 22px;
+}
+
+.portfolio .botton:hover,
+.portfolio .botton:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* end FILTER */
+
+/* PORTFOLIO */
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.portfolio-text {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-size: 18px;
+  line-height: 1.55;
+}
+/* end PORTFOLIO */
