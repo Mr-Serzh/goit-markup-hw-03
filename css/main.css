@@ -23,6 +23,7 @@
 /* FEATURES */
 .features-list {
   display: flex;
+  align-items: center;
 }
 
 .card-features {
@@ -45,7 +46,8 @@
 
 .features-img {
   background-color: var(--secondary-bg-color);
-  width: 278px;
+  border-radius: 4px;
+  overflow: hidden;
   height: 120px;
 }
 
@@ -71,7 +73,9 @@
 }
 
 .services-card {
-  width: 380px;
+  width: 370px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .services {
@@ -102,6 +106,8 @@
   background-color: var(--primary-white-color);
   border-radius: 4px;
   width: calc((100% - 30px * 3) / 4);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
 }
 
 .card-member:not(:last-child) {
@@ -144,7 +150,7 @@
 
 .clients-logo {
   margin: 15px;
-  width: 175px;
+  width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
