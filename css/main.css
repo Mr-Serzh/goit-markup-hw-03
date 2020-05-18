@@ -26,6 +26,7 @@
 }
 
 .card-features {
+  width: 278px;
   width: calc((100% - 30px * 3) / 4);
 }
 
@@ -45,7 +46,6 @@
 
 .features-img {
   background-color: var(--secondary-bg-color);
-  width: 278px;
   height: 120px;
 }
 
@@ -68,6 +68,10 @@
 
 .services-list .item + .item {
   margin-left: 30px;
+}
+
+.services-card {
+  width: 380px;
 }
 
 .services {
@@ -97,6 +101,7 @@
 .card-member {
   background-color: var(--primary-white-color);
   border-radius: 4px;
+  width: 278px;
   width: calc((100% - 30px * 3) / 4);
 }
 

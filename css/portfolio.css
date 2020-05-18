@@ -30,7 +30,8 @@
   flex-wrap: wrap;
 }
 
-.examples-portfolio .item {
+.portfolio-card {
+  width: 380px;
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
